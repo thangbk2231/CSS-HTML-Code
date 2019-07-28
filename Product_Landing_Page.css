@@ -5,36 +5,62 @@
   background-color: blue;
 }
 
+#company_logo0 {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  height: 100%;
+  width: 30%;
+  background-color: #333;
+}
+
 .logo {
   display: inline-block;
   text-align: right;
+  vertical-align: middle;
 }
 
 .logo_contain {
   display: inline-block;
   text-align: left;
+  vertical-align: middle;
 }
 
 #nav-bar {
-  display: inline-block;
   text-align: right;
+  background-color: red;
+  width: 70%;
+  float: right;
 }
 
-nav ul {
+#header nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
 }
 
-nav ul li {
-  float: left;
+#header nav ul li {
+  float: right;
   border-right: 1px solid #bbb;
 }
 
-nav ul li a {
+#header nav ul li a {
   display: block;
   padding: 14px;
   font-size: 1.5em;
   text-decoration: none;
-  text-align: center;
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+h2 {
+  margin-top: 100px;
+  display: block;
+  text-align: middle;
 }
 
 img {
